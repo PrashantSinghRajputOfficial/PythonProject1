@@ -1,3 +1,11 @@
-total = 1 + 2 + 3 + \
-         4 + 5 + 6
-print(total)
+def greet():
+    print("Hello, World!")  # Indented inside function
+
+greet()
+
+'''
+def greet():
+print("Hello, World!")  # Indented inside function
+
+greet()
+'''
