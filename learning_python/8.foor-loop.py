@@ -99,7 +99,7 @@ fruits = [
     "Banana",
     "Papaya"
 ]
-
+# creating a number list
 fruits2 = [
     1,
     2,
@@ -108,11 +108,12 @@ fruits2 = [
     5
 ]
 
+# Porblem Solving Mindset
+# Making dynamic list using my logic 
 fruits3 = []
-# Get Fruit name in sequencial order using for loop
 
 for index,value in enumerate(fruits,start=1):
     for index2,value2 in enumerate(fruits2,start=1):
         if (index == index2):
-            fruits3.append([value,value2])
+            fruits3.append([value,[value2]])
 print(fruits3)
