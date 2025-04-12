@@ -6,7 +6,7 @@ while True:
             break  
         except ValueError:
             print("Invalid input! Please enter your age correctly in numbers.")
-    if age>18 and age<120:
+    if age>=18 and age<120:
      print("You are eligible : ")
      break
     elif age<18 and age>0:
@@ -44,11 +44,10 @@ while True :
             
     list_of_number_or_name.append(f"{name} : {num}")
         
-print("your saved number are : ")
-print(list_of_number_or_name)
 if not list_of_number_or_name:
     print("you dont give any number")
 else:
     for value in list_of_number_or_name:
+        print("your saved number are : ")
         print(f"- {value}")
     
